@@ -6,14 +6,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'nuxt-static-blog-demo',
+    title: 'Todor Licheff',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'A static blog built with Nuxt.js and Contentful'
+        content: 'Todor Licheff personal portfolio'
       }
     ],
     link: [

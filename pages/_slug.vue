@@ -12,7 +12,7 @@
 
           <hr>
           <div class="content" v-html="$md.render(post.fields.content)"></div>
-          <img :src="post.fields.images[0].fields.file.url" alt="">
+          <img v-for="(img,id) in post.fields.images" :src="img.fields.file.url" :alt="img.fields.file.name" :key="id">
         </div>
       </div>
     </div>
@@ -43,6 +43,6 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 
 </style>

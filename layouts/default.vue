@@ -114,6 +114,7 @@ h5 {
 
 .descriptionCopy{
   font-size: 14px;
+  color: #6e6e6e;
 }
 .socials {
   margin: 20px 0;

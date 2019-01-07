@@ -56,9 +56,13 @@ export default {
 }
 .content{
   font-size: 16px;
+
+}
+.content * {
+  color: #6e6e6e !important;
 }
 .title{
-  font-size: 28px !important;
+  font-size: 1.3em !important;
   font-weight: 500;
   margin-bottom: 20px;
   margin-top: 0 !important;

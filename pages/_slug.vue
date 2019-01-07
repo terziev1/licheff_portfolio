@@ -2,9 +2,9 @@
   <section class="section tl-content">
     <div class="container">
       <div class="columns">
-        <div class="column is-offset-2 is-8">
+        <div class="column is-offset-1 is-offset-2+tablet is-8 is-10-tablet ">
           <p class="subtitle is-6">
-            <nuxt-link to="/">Back to Blog home</nuxt-link>
+            <nuxt-link to="/">Back to home</nuxt-link>
           </p>
           <h1 class="title is-2">
             {{ post.fields.title }}

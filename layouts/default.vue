@@ -35,10 +35,6 @@ html {
 ::-webkit-scrollbar-thumb {
   background: #ff0000;
 }
-.tl-nav {
-  border-right: 1px solid #ddd;
-}
-
 .tl-wrapper {
   display: flex;
 }
@@ -54,12 +50,17 @@ html {
   justify-content: flex-end;
   padding: 32px;
   width: 33%;
+  border-right: 1px solid #ddd;
   min-width: 300px;
 }
 .tl-nav h5 {
   margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
+  html{
+    overflow: visible !important;
+    height: auto;
+  }
   .tl-wrapper {
     flex-wrap: wrap;
   }
@@ -67,11 +68,20 @@ html {
     height: 300px;
     flex-grow: 1;
     width: 100%;
+    max-width: 83%;
+    margin: 20px auto;
+    padding: 1.5rem;
+    border-right: none;
   }
   .tl-content {
     width: 100%;
-    overflow: visible;
+    overflow: visible !important;
     height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .tl-nav{
+    max-width: unset;
   }
 }
 h1 {

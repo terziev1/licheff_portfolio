@@ -95,7 +95,6 @@ h5 {
     max-width: 83%;
     margin: 20px auto;
     padding: 1.5rem;
-    padding-top: 60px  !important;
     border-right: none;
   }
   .tl-content {
@@ -103,12 +102,13 @@ h5 {
     overflow: visible !important;
     height: auto;
   }
+  .logo{
+    position: static;
+  }
 }
 @media (max-width: 640px) {
   .tl-nav{
     max-width: unset;
-    padding-top: 60px  !important;
-
   }
 }
 
@@ -132,5 +132,11 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  width: 66%;
+}
+@media (max-width:1024px) {
+  .tl-content{
+    width: 100%;
+  }
 }
 </style>

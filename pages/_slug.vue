@@ -57,4 +57,16 @@ export default {
 .content{
   font-size: 16px;
 }
+.title{
+  font-size: 28px !important;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+
+}
+.subtitle{
+  font-size: 12px !important;
+  margin-bottom: 5px;
+  margin-top: 0 !important;
+}
 </style>

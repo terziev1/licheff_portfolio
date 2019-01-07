@@ -1,18 +1,32 @@
 <template>
   <div class="tl-wrapper">
     <nav class="tl-nav">
+      <nuxt-link to="/">
+        <img class="logo" src="Logo.svg" alt="logo-img">
+      </nuxt-link>
       <h1>Todor Licheff</h1>
-      <h5>Desiner</h5>
-      <p>is the founder & inventor of ContactBoards who currently works at Salesforce Experience Design and is featured on the InVision blog.</p>
+      <h5>UI / UX Designer</h5>
+      <p class="descriptionCopy">A young multidisciplinary artist with a solid background in User Experience/Interfaces, Branding & WEB Design. The dynamics of progress and new challenges developed a keen interest in the field of brand perceptions. A self-driven hard worker and a passionate freethinker who is always looking forward to expand their worldview.</p>
       <div class="flex socials">
         <div>
-          <a href="#" target="_blank">soc1</a>
+          <a href="https://www.behance.net/Licheff" target="_blank">
+            <img src="/Behance.svg" alt="behance-img">
+          </a>
         </div>
         <div>
-          <a href="#" target="_blank">soc2</a>
+          <a href="https://www.linkedin.com/in/licheff" target="_blank">
+            <img src="/Linkedin.svg" alt="linkedin-img">
+          </a>
         </div>
         <div>
-          <a href="#" target="_blank">soc3</a>
+          <a href="https://dribbble.com/Licheff" target="_blank">
+            <img src="/Dribbble.svg" alt="dribble-img">
+          </a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/licheff.dz/" target="_blank">
+            <img src="/Instagram.svg" alt="instagram-img">
+          </a>
         </div>
       </div>
     </nav>
@@ -21,27 +35,32 @@
 </template>
 
 <style>
+*{
+  font-family: 'Merriweather', serif;
+}
 html {
   overflow: scroll;
   overflow-x: hidden;
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 ::-webkit-scrollbar {
-  width: 0px; /* remove scrollbar space */
-  background: transparent; /* optional: just make scrollbar invisible */
+  width: 0px;
+  background: transparent;
 }
-/* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-  background: #ff0000;
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
 }
-.tl-wrapper {
-  display: flex;
+h5 {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 .flex {
   display: flex;
 }
-
+.tl-wrapper {
+  display: flex;
+}
 .tl-nav {
   height: 100vh;
   background: #fff;
@@ -52,6 +71,11 @@ html {
   width: 33%;
   border-right: 1px solid #ddd;
   min-width: 300px;
+}
+.logo{
+  position: absolute;
+  top:30px;
+  left: 30px;
 }
 .tl-nav h5 {
   margin-bottom: 20px;
@@ -65,12 +89,13 @@ html {
     flex-wrap: wrap;
   }
   .tl-nav {
-    height: 300px;
+    height: auto;
     flex-grow: 1;
     width: 100%;
     max-width: 83%;
     margin: 20px auto;
     padding: 1.5rem;
+    padding-top: 60px  !important;
     border-right: none;
   }
   .tl-content {
@@ -82,13 +107,13 @@ html {
 @media (max-width: 640px) {
   .tl-nav{
     max-width: unset;
+    padding-top: 60px  !important;
+
   }
 }
-h1 {
-  font-weight: 700;
-}
-h5 {
-  font-weight: 400;
+
+.descriptionCopy{
+  font-size: 14px;
 }
 .socials {
   margin: 20px 0;

@@ -4,6 +4,7 @@
       <img class="feauturedImage" :src="post.fields.feauturedImage[0].fields.file.url" alt>
       <img class="bgImage" :src="post.fields.backgroundImage[0].fields.file.url" alt>
       <h1 class="homepageTitle">{{ post.fields.title }}</h1>
+      <h1 class="homepageSubTitle">{{ post.fields.type }}</h1>
     </nuxt-link>
   </div>
 </template>
@@ -41,11 +42,19 @@ export default {
 }
 .homepageTitle {
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
   left: 30px;
   font-size: 32px;
   color: #fff;
 }
+.homepageSubTitle {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+
 .feauturedImage {
   height: 60%;
   width: auto;

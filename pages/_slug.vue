@@ -12,7 +12,10 @@
 
           <hr>
           <div class="content" v-html="$md.render(post.fields.content)"></div>
-          <img v-for="(img,id) in post.fields.images" :src="img.fields.file.url" :alt="img.fields.file.name" :key="id">
+          <div v-for="(img,id) in post.fields.images" :key="id" class="projectImgWrapper">
+            <p>{{img.fields.title}}</p>
+            <img  :src="img.fields.file.url" :alt="img.fields.title" :key="id">
+          </div>
         </div>
       </div>
     </div>
@@ -44,5 +47,14 @@ export default {
 };
 </script>
 <style scoped>
-
+.projectImgWrapper{
+  margin-bottom: 20px;
+}
+.projectImgWrapper p  {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.content{
+  font-size: 16px;
+}
 </style>

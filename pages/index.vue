@@ -54,6 +54,7 @@ export default {
   left: 30px;
   font-size: 18px;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 .feauturedImage {

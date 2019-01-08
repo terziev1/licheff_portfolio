@@ -1,25 +1,25 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "pages/index.4e69346d3c5065c12698.js",
+    "pages/index.86c21505aaa43edf1f4b.js",
     "pages/_slug.37489af5353634f493a9.js",
-    "layouts/default.87c066f2accc4b722801.js",
+    "layouts/default.51f7a54d1838d1b9fe2c.js",
     "vendor.77dabcdcccdc75201742.js",
     "app.7840286217f4c5c0d1b7.js",
-    "manifest.9f6b42edcb29b6091a66.js",
+    "manifest.54feb6796b1d612b30e3.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.9f6b42edcb29b6091a66.js",
+    "manifest.54feb6796b1d612b30e3.js",
     "vendor.77dabcdcccdc75201742.js",
     "app.7840286217f4c5c0d1b7.js"
   ],
   "async": [
-    "pages/index.4e69346d3c5065c12698.js",
+    "pages/index.86c21505aaa43edf1f4b.js",
     "pages/_slug.37489af5353634f493a9.js",
-    "layouts/default.87c066f2accc4b722801.js"
+    "layouts/default.51f7a54d1838d1b9fe2c.js"
   ],
   "modules": {
     "11441800": [
@@ -861,6 +861,9 @@
     ],
     "3763283a": [
       3
+    ],
+    "0f044390": [
+      2
     ],
     "d3d3d4ba": [
       3

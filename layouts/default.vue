@@ -7,6 +7,7 @@
       <h1>Todor Licheff</h1>
       <h5>UI / UX Designer</h5>
       <p class="descriptionCopy">A young multidisciplinary artist with a solid background in User Experience/Interfaces, Branding & WEB Design. The dynamics of progress and new challenges developed a keen interest in the field of brand perceptions. A self-driven hard worker and a passionate freethinker who is always looking forward to expand their worldview.</p>
+      <a @click="resumeView = !resumeView" class="resumeBtn">View Resume &#8594;</a>
       <div class="flex socials">
         <div>
           <a href="https://www.behance.net/Licheff" target="_blank">
@@ -31,8 +32,29 @@
       </div>
     </nav>
     <nuxt/>
+    <transition name="slide">
+      <div class="resume" v-show="resumeView">
+         <div class="container">
+           <div class="columns">
+            <div class="column is-offset-1 is-offset-2+tablet is-8 is-10-tablet ">
+
+              <a @click="resumeView = !resumeView">Back to home</a>
+           </div>
+         </div>
+        </div>
+      </div>
+   </transition>
   </div>
 </template>
+<script>
+export default {
+  data(){
+    return{
+      resumeView:false,
+    }
+  }
+}
+</script>
 
 <style>
 *{
@@ -115,6 +137,7 @@ h5 {
 .descriptionCopy{
   font-size: 14px;
   color: #6e6e6e !important;
+  margin-bottom: 15px;
 }
 .socials {
   margin: 20px 0;
@@ -139,5 +162,31 @@ h5 {
   .tl-content{
     width: 100%;
   }
+}
+
+.resume{
+    background-color: #ddd;
+    position: fixed;
+    right: 0;
+    top: 0%;
+    width: 67%;
+    height: 100vh;
+    padding-top: 40px;
+}
+.resumeBtn{
+  font-size: 12px !important;
+  color: #000;
+  text-decoration: underline;
+
+}
+.slide-leave-active,
+.slide-enter-active {
+  transition: 150ms ease-out;
+}
+.slide-enter {
+  transform: translateX(60%);
+}
+.slide-leave-to {
+  transform: translateX(100%);
 }
 </style>

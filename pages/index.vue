@@ -4,9 +4,10 @@
       <img class="feauturedImage" :src="post.fields.feauturedImage[0].fields.file.url" alt>
       <img class="bgImage" :src="post.fields.backgroundImage[0].fields.file.url" alt>
       <h1 class="homepageTitle">{{ post.fields.title }}</h1>
-      <h1 class="homepageSubTitle">{{ post.fields.type }}</h1>
+      <h2 class="homepageSubTitle">{{ post.fields.type }}</h2>
     </nuxt-link>
   </div>
+
 </template>
 
 <script>

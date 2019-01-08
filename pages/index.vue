@@ -41,25 +41,31 @@ export default {
   flex-direction: column;
   position: relative;
 }
+.tl-content .project:hover .feauturedImage{
+  transform: scale(1.03)
+}
 .homepageTitle {
   position: absolute;
-  bottom: 40px;
+  font-size: 28px;
+  bottom: 48px;
   left: 30px;
-  font-size: 32px;
   color: #fff;
 }
 .homepageSubTitle {
   position: absolute;
-  bottom: 10px;
   left: 30px;
-  font-size: 18px;
-  color: #fff;
+  bottom: 24px;
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .feauturedImage {
   height: 60%;
   width: auto;
+  transition:all 300ms ease-out;
+
 }
 .bgImage {
   position: absolute;

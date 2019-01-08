@@ -69,12 +69,13 @@ html {
   background: transparent;
 }
 h1 {
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: 800;
   font-family: 'Poppins', sans-serif;
 }
 
 h5 {
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
@@ -137,14 +138,20 @@ h5 {
 
 .descriptionCopy{
   font-size: 14px;
-  color: #6e6e6e !important;
   margin-bottom: 15px;
+  color: #898989;
+  line-height: 1.8em;
+  margin-bottom: 20px;
 }
 .socials {
   margin: 20px 0;
 }
 .socials a {
   padding: 0 12px;
+  transition: all 300ms ease-out
+}
+.socials a:hover {
+  opacity: 0.8;
 }
 .socials a:first-of-type {
   padding-left: 0;

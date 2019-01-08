@@ -48,22 +48,34 @@ export default {
 </script>
 <style scoped>
 .projectImgWrapper{
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .projectImgWrapper p  {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #898989;
+  margin-bottom: 4px;
+  font-family: 'Poppins', sans-serif;
+
 }
+
 .content{
   font-size: 16px;
-
+  line-height: 1.9em;
+  margin-bottom: 60px;
+}
+.content p {
+    font-size: 16px;
+  line-height: 1.9em;
+  margin-bottom: 60px;
 }
 .content * {
   color: #6e6e6e !important;
 }
 .title{
-  font-size: 1.3em !important;
   font-weight: 500;
+  color: #898989;
+  font-size: 16px !important;
   margin-bottom: 20px;
   margin-top: 0 !important;
 

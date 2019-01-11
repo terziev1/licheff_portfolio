@@ -28,6 +28,11 @@
             <img src="/Instagram.svg" alt="instagram-img">
           </a>
         </div>
+        <div>
+          <a href="mailto:licheff.o@gmail.com" >
+            <img src="/Email.svg" alt="email-img">
+          </a>
+        </div>
       </div>
     </nav>
 </template>

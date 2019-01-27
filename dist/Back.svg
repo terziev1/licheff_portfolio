@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage/Resume" transform="translate(-590.000000, -131.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Icons/Navigation/Back" transform="translate(586.000000, 128.000000)">
+                <path d="M5.8209139,12.0111111 L12.3771236,18.2941454 C12.5854032,18.4937467 12.5854032,18.8173644 12.3771236,19.0169657 C12.168844,19.216567 11.831156,19.216567 11.6228764,19.0169657 L4.15620972,11.8614101 C3.94793009,11.6618088 3.94793009,11.3381912 4.15620972,11.1385899 L11.6228764,3.98303431 C11.831156,3.78343301 12.168844,3.78343301 12.3771236,3.98303431 C12.5854032,4.18263562 12.5854032,4.50625327 12.3771236,4.70585458 L5.8209139,10.9888889 L19.4666667,10.9888889 C19.7612185,10.9888889 20,11.2177211 20,11.5 C20,11.7822789 19.7612185,12.0111111 19.4666667,12.0111111 L5.8209139,12.0111111 Z" id="ic-back"></path>
+            </g>
+        </g>
+    </g>
+</svg>
